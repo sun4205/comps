@@ -4,19 +4,27 @@ function App() {
   return (
     <div>
       <div>
-        <Button>Click Me!</Button>
+        <Button primary rounded outline>
+          Click Me!
+        </Button>
       </div>
       <div>
-        <Button>Buy now!</Button>
+        <Button secondary outline>
+          Buy now!
+        </Button>
       </div>
       <div>
-        <Button>See deal!</Button>
+        <Button success>See deal!</Button>
       </div>
       <div>
-        <Button>Hide Ads!</Button>
+        <Button warning outline>
+          Hide Ads!
+        </Button>
       </div>
       <div>
-        <Button>Something!</Button>
+        <Button outline rounded>
+          Something!
+        </Button>
       </div>
     </div>
   );
